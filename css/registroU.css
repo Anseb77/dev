@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004A9F;
+    padding: 10px;
+}
+
+.header-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.left-logo {
+    max-width: 50px;
+}
+
+.center-logo {
+    max-width: 150px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004A9F;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-group,
+.terms-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label,
+.terms-group label {
+    color: #555;
+    font-size: 14px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E4002B;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #C30025;
+}
+
+.footer-section {
+    background-color: #004A9F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #933e3e;
+    background-image: url('https://metodoegm.com/emprendimiento/grandes-empresas-que-fracasaron/'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+header {
+    background-color: #8ca7d2;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    color: #0041c2;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.registration-form {
+    width: 60%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.telefono-group {
+    display: flex;
+    gap: 10px;
+}
+
+.telefono-group select {
+    width: 25%;
+}
+
+.telefono-group input {
+    width: 75%;
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+.terms label {
+    font-size: 14px;
+    color: #666;
+}
+
+.terms a {
+    color: #0041c2;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    background-color: #f70972;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #d50863;
+}
+
+.form-image {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-image img {
+    max-width: 100%;
+}
+
+.footer-section {
+    background-color: #0041c2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Color de fondo opcional */
+}
+
+.header-logo {
+    max-width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+.center-logo {
+    margin: 0 auto; /* Centra el logo en el medio */
+}
+
+.header-link {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000; /* Color del enlace, ajusta según el diseño */
+}
+
+
+.login-link {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

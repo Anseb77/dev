@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://advantys.es/wp-content/uploads/2022/11/empresas-edificios.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 74, 159, 0.8); /* Fondo translúcido */
+    padding: 10px;
+}
+
+.header-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.left-logo {
+    max-width: 50px;
+}
+
+.center-logo {
+    max-width: 150px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #004A9F;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.forgot-password,
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a,
+.register-link a {
+    color: #004A9F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password a:hover,
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E4002B;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #C30025;
+}
+
+.footer-section {
+    background-color: #004A9F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.login-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
